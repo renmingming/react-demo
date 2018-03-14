@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --config webpack.dev.config.js --color --progress",
+    "dev": "webpack-dev-server --config webpack.dev.config.js --color --progress --hot",
     "dev-build": "webpack --config webpack.dev.config.js"
   },
   "author": "renmingming",
@@ -17,6 +17,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "internal-ip": "^3.0.1",
+    "react-hot-loader": "^4.0.0",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.12",
     "webpack-dev-server": "^3.1.1"
